@@ -9,7 +9,9 @@
 (3)实体信息：附加实体信息<br>
 ![输入图解](https://github.com/Yenine/Relation-Linking-Practice/blob/main/images/RL2.png)
 ##### 2.模型流程
+![模型流程](https://github.com/Yenine/Relation-Linking-Practice/blob/main/images/RL1.png)<br>
 使用孪生神经网络，分别使用两个相同的子网络（CNN或PCNN）获得两个输入的输出，计算对比损失并利用其训练模型；最后使用训练好的模型进行判断。<br>
+![对比损失](https://github.com/Yenine/Relation-Linking-Practice/blob/main/images/RL3.png)<br>
 远程监督：同样的实体对之间的关系含义相近；如果其中一个实体不同，则为含义不同。使用交换规则获取更多正面样例。
 ##### 3.数据集：
 Stanford Open IE <br>
