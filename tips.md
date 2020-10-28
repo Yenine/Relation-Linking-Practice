@@ -40,3 +40,18 @@ EARL <br>
 
 
 ### 3. Matching Natural Language Relations to Knowledge Graph
+
+##### 1.特征：
+自然语言描述的问题
+
+##### 2.模型流程：
+1.提取Q-rel，获取八元组
+2.提取属性获得EPS，获取七元组
+3.使用多种方法计算Q-rel与EPS中属性的相似性，获取得分，选择最优者
+
+
+##### 3.数据集与工具：
+QALD <br> 
+QALD-5 <br> 
+Wordnet <br> 
+DBpedia <br> 
