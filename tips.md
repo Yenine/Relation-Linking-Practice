@@ -22,8 +22,10 @@ Wikidata  Knowledge Base (KB)
 ##### 1.特征：
 自然语言描述的问题
 ##### 2.模型流程：
+![模型流程](https://github.com/Yenine/Relation-Linking-Practice/blob/main/images/RL5.png)<br>
 (1)关系关键词挖掘：使用TexRazor API<br>
 (2)基于关键词的关系扩展：使用来自PATTY的背景知识获取相关关系列表<br>
+![关系扩展](https://github.com/Yenine/Relation-Linking-Practice/blob/main/images/RL4.png)<br>
 (3)基于实体的关系扩展：对于出现的实体,利用RDF获取其显性和隐性关系，进行关系扩充<br>
 (4)候选关系排序:使用SIBKB排序，进而使用三种策略重排序<br>
 ##### 3.数据集与工具：
