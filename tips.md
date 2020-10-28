@@ -15,7 +15,8 @@
 远程监督：同样的实体对之间的关系含义相近；如果其中一个实体不同，则为含义不同。使用交换规则获取更多正面样例。
 ##### 3.数据集：
 Stanford Open IE <br>
-Wikidata  Knowledge Base (KB)
+Wikidata  Knowledge Base  <br>
+Wordnet
 
 ### 2. ISWC'19-Entity Enabled Relation Linking
 
@@ -31,6 +32,7 @@ Wikidata  Knowledge Base (KB)
 ##### 3.数据集与工具：
 QALD <br>
 LC-QuAD <br> 
+DBpedia <br> 
 PATTY <br>
 SIBKB <br>
 ReMatch <br>
